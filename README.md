@@ -1,5 +1,7 @@
 # OpenSSL CA 操作教程
 
+> 本教程发布于作者的个人博客，[点击查看](https://fenying.net/book/pki-tutorials/)。
+
 ## 目录
 
 1. RSA 证书
@@ -7,10 +9,10 @@
     2. [生成 RSA CA 根证书](./chapters/1.2.Generate-RSA-CA-Root.md)
     3. [生成 RSA CA 中间证书](./chapters/1.3.Generate-RSA-CA-Intermediate.md)
 
-2. ECC 证书
-    1. [ECC 密钥管理](./chapters/2.1.Manage-ECC-Keys.md)
-    2. [生成 ECC CA 根证书](./chapters/2.2.Generate-ECC-CA-Root.md)
-    3. [生成 ECC CA 中间证书](./chapters/2.3.Generate-ECC-CA-Intermediate.md)
+2. EC 证书
+    1. [EC 密钥管理](./chapters/2.1.Manage-EC-Keys.md)
+    2. [生成 EC CA 根证书](./chapters/2.2.Generate-EC-CA-Root.md)
+    3. [生成 EC CA 中间证书](./chapters/2.3.Generate-EC-CA-Intermediate.md)
 
 3. 终端证书管理
     1. [签发服务端证书](./chapters/3.1.Request-Server-Certificate.md)
