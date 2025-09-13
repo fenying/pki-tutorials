@@ -1,33 +1,50 @@
-# OpenSSL CA 操作教程
+# OpenSSL CA/PKI Tutorials
 
-> 本教程发布于作者的个人博客，[点击查看](https://fenying.net/book/pki-tutorials/)。
+> 点击查看[中文版](./README_zh.md)。
 
-## 目录
+This is a tutorial for building a PKI (Public Key Infrastructure) based on OpenSSL, including
 
-1. RSA 证书
-    1. [RSA 密钥管理](./chapters/1.1.Manage-RSA-Keys.md)
-    2. [生成 RSA CA 根证书](./chapters/1.2.Generate-RSA-CA-Root.md)
-    3. [生成 RSA CA 中间证书](./chapters/1.3.Generate-RSA-CA-Intermediate.md)
+- Key management
+- Create root CA certificates
+- Create secondary CA certificates
+- Issue server certificates
+- etc
 
-2. EC 证书
-    1. [EC 密钥管理](./chapters/2.1.Manage-EC-Keys.md)
-    2. [生成 EC CA 根证书](./chapters/2.2.Generate-EC-CA-Root.md)
-    3. [生成 EC CA 中间证书](./chapters/2.3.Generate-EC-CA-Intermediate.md)
+For DEMO, please visit [Fenying CA](https://ca.fenying.net).
 
-3. 终端证书管理
-    1. [签发服务端证书](./chapters/3.1.Request-Server-Certificate.md)
-    2. [签发客户端证书](./chapters/3.2.Request-Client-Certificate.md)
-    3. [吊销证书](./chapters/3.3.Revoke-Certificate.md)
+> This tutorial is published on the author's personal blog, [click to view](https://fenying.net/en/book/pki-tutorials/).
 
-4. 交叉签名
+## Catalog
 
-    未完待续。
+1. RSA Keys/Certificates
+    1. [Manage RSA Keys](./en/1.1.manage-rsa-keys.md)
+    2. [Initialize RSA Root CA](./en/1.2.generate-rsa-ca-root.md)
+    3. [Initialize RSA Intermediate CA](./en/1.3.generate-rsa-ca-intermediate.md)
 
-5. 附录
+2. EC Keys/Certificates
+    1. [Manage EC Keys](./en/2.1.manage-ec-keys.md)
+    2. [Initialize EC Root CA](./en/2.2.generate-ec-ca-root.md)
+    3. [Initialize EC Intermediate CA](./en/2.3.generate-ec-ca-intermediate.md)
 
-    1. [生成随机种子文件](./chapters/X.01-Generate-Random-Seed-File.md)
-    2. [参考文献](./chapters/X.02-Rererences.md)
+3. Terminal Certificates
+    1. [Issue Server-side Certificates](./en/3.1.request-server-certificate.md)
+    2. [Issue Client-side Certificates](./en/3.2.request-client-certificate.md)
+    3. [Revoke Certificates](./en/3.3.revoke-certificate.md)
+
+4. Cross-signing
+
+    Unfinished.
+
+5. Appendices
+
+    1. [Generate random seed file](./en/x.01-generate-random-seed-file.md)
+
+## References
+
+- [Configuration file](https://www.ibm.com/docs/en/ztpf/1.1.0.15?topic=gssccr-configuration-file-generating-self-signed-certificates-certificate-requests)
+
+- [CA Manuals](https://jamielinux.com/docs/openssl-certificate-authority/create-the-root-pair.html)
 
 ## LICENSE
 
-本文档采用 CC-BY-4.0 协议公开发表于 Github，转载请遵循该协议。
+This document is published under the CC-BY-4.0 license on [Github](https://github.com/fenying/pki-tutorials), please follow this license for redistribution.
